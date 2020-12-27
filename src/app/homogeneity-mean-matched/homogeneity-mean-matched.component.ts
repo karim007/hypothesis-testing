@@ -17,7 +17,7 @@ export class HomogeneityMeanMatchedComponent implements OnInit {
     }
 
     compute(){
-      this.t=this.mp/(this.sdp*(1/ Number(Math.sqrt(this.n-1).toFixed(this.fixed))  ));
+      this.t=Number(( this.mp/(this.sdp*(1/ Number(Math.sqrt(this.n-1).toFixed(this.fixed))  ))).toFixed(this.fixed));
     }
 
   }
