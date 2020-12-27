@@ -1,0 +1,54 @@
+<div class="card">
+    <div class="card-header">
+        Snedecor
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">Homogeneity test: Variance </h5>
+
+        <form>
+
+            <div class="form-row">
+                <div class="form-group col-md-1">
+                    <label for="inputCity">N1</label>
+                    <input name="n1" type="number" [(ngModel)]="n1" class="form-control" id="inputCity">
+                </div>
+                <div class="form-group col-md-1">
+                    <label for="inputState">&#948;1</label>
+                    <input name="sd1" type="number" [(ngModel)]="sd1" class="form-control" id="inputCity">
+
+                </div>
+                <div class="form-group col-md-1">
+                    <label for="inputCity">M1</label>
+                    <input name="m1" type="number" [(ngModel)]="m1" class="form-control" id="inputCity">
+                </div>
+                <div class="form-group col-md-1">
+                    <label for="inputCity">N2</label>
+                    <input name="n2" type="number" [(ngModel)]="n2" class="form-control" id="inputCity">
+                </div>
+                <div class="form-group col-md-1">
+                    <label for="inputState">&#948;2</label>
+                    <input name="sd2" type="number" [(ngModel)]="sd2" class="form-control" id="inputCity">
+
+                </div>
+                <div class="form-group col-md-1">
+                    <label for="inputCity">M2</label>
+                    <input name="m2" type="number" [(ngModel)]="m2" class="form-control" id="inputCity">
+                </div>
+                <div class="form-group col-md-1">
+                    <label for="inputCity">Round</label>
+                    <input name="fixed" type="number" [(ngModel)]="fixed" class="form-control" id="inputCity">
+
+                </div>
+
+            </div>
+            <button (click)="compute()" class="btn btn-primary">Compute</button>
+            <br/>
+            <br/>
+            <div>
+                <label for="inputCity">F={{f}}</label>
+            </div>
+
+        </form>
+
+    </div>
+</div>
